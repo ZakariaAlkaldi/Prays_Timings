@@ -7,6 +7,11 @@ import axios from "axios";
 import moment from "moment";
 import "moment/locale/ar";
 moment.locale("ar");
+import fagerImg from "../assets/fager.png";
+import dhuherImg from "../assets/dhuher.png";
+import aserImg from "../assets/aser.jpg";
+import maghrebImg from "../assets/maghreb.jpg";
+import eshaImg from "../assets/esha.jpg";
 
 function MainContent() {
   const [nextPrayerIndex, setNextPrayerIndex] = useState(0);
@@ -127,11 +132,11 @@ function MainContent() {
   }, [timings]);
 
   const imgsPaths = {
-    fager: "/src/assets/fager.png",
-    dhuher: "/src/assets/dhuher.png",
-    aser: "/src/assets/aser.jpg",
-    maghreb: "/src/assets/maghreb.jpg",
-    esha: "/src/assets/esha.jpg",
+    fager: fagerImg,
+    dhuher: dhuherImg,
+    aser: aserImg,
+    maghreb: maghrebImg,
+    esha: eshaImg,
   };
 
   const containerStyle = {
