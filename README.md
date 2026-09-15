@@ -1,6 +1,7 @@
 # Prayer Time Tracker
 
 A React + TypeScript app for viewing daily prayer times and tracking the next salah in real time.
+
 You can try the app here: https://prays-timings.netlify.app/
 
 ## Overview
